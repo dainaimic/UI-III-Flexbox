@@ -64,3 +64,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+html {
+	display: flex;
+	max-width: 94.5%;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+
+
+/* Navagation */
+
+nav a {
+	display: flex;
+	padding: 30px;
+	position:relative; 
+	right: 39px;
+	font-family: auto;
+
+}
+
+img.logo {
+	display: inline-block;
+	margin: 12px;
+	position: relative;
+	left: 670px;
+	bottom: 73px;
+
+}
+
+/* Content */
+
+.info {
+	position: relative;
+	bottom: 125px;
+}
+
+.container {
+	position: relative;
+	top: 120px;
+	line-height: 345%;
+}
+
+
+ .oneh {
+	position: relative;
+	left: 100px;
+	font-size: 80px;
+	
+}
+
+.twoh {
+	position: relative;
+	left: 200px;
+	font-size: 80px;
+}
+
+.threeh {
+	position: relative;
+	left: 140px;
+	font-size: 80px;
+
+}
+#start {
+	display: inline;
+	position: relative;
+	left: 170px;
+	width: 150px;
+	height: 60px;
+	padding-left: 35px;
+	padding-right: 35px;
+	box-sizing: content-box;
+	border: 1px solid black
+	
+	
+}
+
+.logo2 {
+	display: inline-block;
+	position: relative;
+	left: 510px;
+	bottom: 225px;
+}
+
+
+.container-two{
+	display: inline-block;
+	width: 50%;
+}
+
+.container-three{
+	display: inline-block;
+	width: 44%;
+	height: 150px;
+	position: relative;
+	left: 30px;
+	
+}
+
+.container-four{
+	display: inline-block;
+	width: 30%;
+	height: 10px;
+}
+
+.container-five{
+	display: inline-block;
+	width: 30%;
+	height: 100px;
+	position: relative;
+	left: 39px;
+	top: 15px;
+}
+
+.container-six{
+	display: inline-block;
+	width: 30%;
+	height: 190px;
+	position: relative;
+	left: 84px;
+	top: 15px;
+}
+
+.copyR{
+	position: relative;
+	top: 40px;
+	text-align: center;
+}
