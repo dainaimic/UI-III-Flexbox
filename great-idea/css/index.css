@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: ;
 }
 blockquote, q {
 	quotes: none;
@@ -251,5 +251,177 @@ footer a{
 .copyR{
 	position: relative;
 	top: 215px;
+	text-align: center;
+}
+
+/* Services Page */
+
+nav{
+	display:flex;
+	position: relative;
+	right: 25px;
+	top: 45px;
+	
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+}
+
+
+.img1{
+	position: relative;
+	top: -15px;
+}
+
+/* Content */
+
+.beg-content{
+	position: relative;
+	top:20px;
+}
+
+.hrs1{
+	position: relative;
+	top: 30px
+}
+
+.top-content {
+	display: flex;
+	position: relative;
+	top: 40px;
+}
+
+.top-content .top-child{
+	border: 1.5px solid black;
+	background-color: lightgrey;
+	padding: 30px;
+
+}
+
+.top-content .top-child{
+	margin-right: 5px;
+}
+
+.top-content .top-child:last-child{
+	margin-left: 20px;
+	position: relative;
+	left:5px;
+}
+
+.top-content .top-child h6{
+	border: 1px solid black;
+	box-sizing: content-box;
+	width: 125px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;
+	top: 12px;
+	
+}
+
+.mid-content {
+	display: flex;
+	position: relative;
+	top: 70px;
+}
+
+.mid-content .mid-child{
+	border: 1.5px solid black;
+	background-color: lightgrey;
+	padding: 30px;
+
+}
+
+.mid-content .mid-child{
+	margin-right: 5px;
+}
+
+.mid-content .mid-child:last-child{
+	margin-left: 20px;
+	position: relative;
+	left:5px;
+}
+
+.mid-content .mid-child h6{
+	border: 1px solid black;
+	box-sizing: content-box;
+	width: 125px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;
+	top: 12px;
+	
+}
+
+.bot-content {
+	display: flex;
+	position: relative;
+	top: 100px;
+}
+
+.bot-content .bot-child{
+	border: 1.5px solid black;
+	background-color: lightgrey;
+	padding: 30px;
+
+}
+
+.bot-content .bot-child{
+	margin-right: 5px;
+}
+
+.bot-content .bot-child:last-child{
+	margin-left: 20px;
+	position: relative;
+	left:5px;
+}
+
+.bot-content .bot-child h6{
+	border: 1px solid black;
+	box-sizing: content-box;
+	width: 125px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;
+	top: 12px;
+	
+}
+
+.hrs2{
+	position: relative;
+	top:120px
+}
+
+
+
+.last-container{
+	display: flex;
+}
+
+.last-container .last-child{
+	position: relative;
+	top: 140px;
+	width: 48%;
+}
+
+footer ul li{
+	position: relative;
+	top: 165px;
+	left: 9px;
+	margin: 10px;
+}
+
+footer img{
+	position: relative;
+	left: 451px;
+	bottom: 90px;
+}
+
+footer #copy{
 	text-align: center;
 }
