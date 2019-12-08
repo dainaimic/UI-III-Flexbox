@@ -313,6 +313,7 @@ nav a{
 .top-content .top-child h6{
 	border: 1px solid black;
 	box-sizing: content-box;
+	background-color: white;
 	width: 125px;
 	padding: 10px;
 	text-align: center;
@@ -348,6 +349,7 @@ nav a{
 .mid-content .mid-child h6{
 	border: 1px solid black;
 	box-sizing: content-box;
+	background-color: white;
 	width: 125px;
 	padding: 10px;
 	text-align: center;
@@ -383,6 +385,7 @@ nav a{
 .bot-content .bot-child h6{
 	border: 1px solid black;
 	box-sizing: content-box;
+	background-color: white;
 	width: 125px;
 	padding: 10px;
 	text-align: center;
